@@ -9,7 +9,7 @@ on:
       - opened
       - edited
       - synchronize
-    paths: ./src/pet  
+    paths: src/pet  
 
 
 jobs:

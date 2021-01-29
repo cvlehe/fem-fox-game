@@ -1,7 +1,7 @@
 import game, { handleUserAction } from "./gameState";
 import initButtons from "./buttons";
 import { TICK_RATE } from "./constants";
-
+// test
 async function init() {
   console.log("starting game");
   initButtons(handleUserAction);

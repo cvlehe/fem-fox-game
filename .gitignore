@@ -25,6 +25,7 @@ Brewfile.lock.json
 logs/
 .eslintcache
 dist/
+*.private-key.pem
 
 # Jest
 #

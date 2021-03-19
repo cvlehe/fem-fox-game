@@ -24,6 +24,7 @@ buck-out/
 Brewfile.lock.json
 logs/
 .eslintcache
+dist/
 
 # Jest
 #

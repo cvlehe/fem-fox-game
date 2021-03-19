@@ -20,4 +20,4 @@ curl \
   -H "Authorization: token $INSTALLATION_ACCESS_TOKEN" \
   -H "Accept: application/vnd.github.v3+json" \
   https://api.github.com/repos/cvlehe/fem-fox-game/pulls \
-  -d '{"head":"test/automated-pr","base":"test/automated-pr-master"}'
+  -d '{"head":"test/automated-pr","base":"test/automated-pr-master", "title":"Hello PR"}'

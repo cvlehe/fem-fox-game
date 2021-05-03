@@ -10,7 +10,8 @@
     "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
     "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
     "test": "jest",
-    "gh-app": "./jwt_generator.rb"
+    "gh-app": "./jwt_generator.rb",
+    "create-pr": "node ./create_pr.js"
   },
   "author": "Brian Holt <btholt+foxgame@gmail.com>",
   "license": "Apache-2.0",
@@ -26,6 +27,8 @@
     "last 2 Firefox versions"
   ],
   "dependencies": {
+    "@octokit/auth-app": "^3.0.0",
+    "@octokit/rest": "^18.3.5",
     "node-jq": "^1.12.0"
   }
 }
